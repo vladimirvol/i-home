@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #20202d;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.hero {
+  background-image: url(../img/header8.jpg);
+  background-repeat: no-repeat;
+}
+.hero-heder {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.mode-text {
+  text-align: center;
+}
+.mode-subtitle {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.hero-time {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: 50%;
+}
+.sat {
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: 50%;
+}
+.contact {
+    display: flex;
+	flex-direction: column;
+}
+.telefon{
+	  font-family: "Roboto", sans-serif;
+color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+	
+}
+.telefon a{
+	  margin: 0;
+  padding: 0;
+}
+.telefon span{
+	font-size: 24px;
+	font-weight: bold;
+	color: #fe0000;
+	
+}
+.hero-button {
+  color: #c69c6d;
+}
+.button:focus {
+  outline: none !important;
+}
+button {
+  padding: 12px 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  outline: none;
+    margin-bottom: 100px;
+}
+.header-content {
+  color: #000;
+  margin-left: 20px;
+  padding-bottom: 250px;
+}
+.header-content p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.imgservices img{
+	weight: 111px;
+	height: 92px;
+}
+.imgservices{
+text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgservices-item p{
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+}
